@@ -37,6 +37,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="Da-TACOS" href="https://mtg.github.io/da-tacos/" target="_blank" rel="noopener">Da-TACOS</a> | cover songs | 25000 songs | no
 &#x2705; | <a title="DALI" href="https://github.com/gabolsgabs/DALI" target="_blank" rel="noopener">Dataset of synchronised Audio, LyrIcs and vocal notes</a> | aligned notes and lyrics | 5358 songs | no
 &#x2705; | <a title="DAMP" href="https://ccrma.stanford.edu/damp/" target="_blank" rel="noopener">DAMP</a> | karaoke performances, [aligned lyrics](https://drive.google.com/drive/folders/1hGuE0Drv3tbN-YNRDzJJMHfzKH6e4O2A), [pronunciation assessment](https://drive.google.com/drive/folders/19JPEWSBAM0ssatjBIJzAzjClxi2abt8w) | 34000 monophonic recordings | yes
+&#x2705; | <a title="DCS" href="https://www.audiolabs-erlangen.de/resources/MIR/2020-DagstuhlChoirSet" target="_blank" rel="noopener">Dagstuhl ChoirSet</a> | beats, time-aligned scores, F0 | 81 takes | yes
 &#x2705; | <a title="DEAM" href="http://cvml.unige.ch/databases/DEAM" target="_blank" rel="noopener">DEAM - The MediaEval Database for Emotional Analysis of Music</a> | valence & arousal | 1802 excerpts | yes
 &#x2705; | <a title="DEAPDataset" href="http://www.eecs.qmul.ac.uk/mmv/datasets/deap/readme.html" target="_blank" rel="noopener">DEAPDataset</a> | valence & arousal, dominance, physiological data | 120 music video excerpts | no
 &#x2705; | <a title="DESED" href="https://github.com/turpaultn/DESED" target="_blank" rel="noopener">DESED</a> | 10 audio event classes | pprox 20k 10s clips (unlabeled, weakly/strongly labeled) | yes
@@ -48,6 +49,8 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="Emotify" href="http://www.projects.science.uu.nl/memotion/emotifydata" target="_blank" rel="noopener">Emotify</a> | induced emotion | 400 excerpts | yes
 &#x2705; | <a title="EMusic" href="http://cvml.unige.ch/databases/emoMusic" target="_blank" rel="noopener">EMusic</a> | arousal & valence | 100 excerpts (experimental music) | yes
 &#x2705; | <a title="ENST-Drums" href="http://www.tsi.telecom-paristech.fr/aao/en/2010/02/19/enst-drums-an-extensive-audio-visual-database-for-drum-signals-processing/" target="_blank" rel="noopener">ENST-Drums</a> | onset times, perc. instruments, [playing technique](https://github.com/cwu307/DrumPtDataset) | 318 segments | yes
+&#x2705; | <a title="Erkomaishvili" href="https://www.audiolabs-erlangen.de/resources/MIR/2019-GeorgianMusic-Erkomaishvili" target="_blank" rel="noopener">Erkomaishvili Dataset</a> | sheet music, structure, F0, note onsets | 118 tracks | yes
+&#x2705; | <a title="ExpandedGrooveMD" href="https://g.co/magenta/e-gmd" target="_blank" rel="noopener">Expanded Groove MIDI Dataset</a> | drummer/session id, drum timing, kit name | 45537 midi/audio pairs | rendered
 &#x2705; | <a title="Extendedballroom" href="http://anasynth.ircam.fr/home/media/ExtendedBallroom/" target="_blank" rel="noopener">Extendedballroom</a> | 9 genres, tempo | 4000 excerpts (30s) | downloadable
 &#x2620; | <a title="ExtraSensory" href="http://extrasensory.ucsd.edu/" target="_blank" rel="noopener">ExtraSensory</a> | 51 context labels | 300000 sensor recordings from 60 users | yes
 &#x2620; | <a title="ffuhrmann" href="http://www.dtic.upf.edu/~ffuhrmann/PhD/data" target="_blank" rel="noopener">ffuhrmann</a> | 11 predom. instr. | 6951 excerpts from 220 songs | yes/no
@@ -61,11 +64,11 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="GiantStepsKey" href="https://github.com/GiantSteps/giantsteps-key-dataset" target="_blank" rel="noopener">GiantStepsKey</a> | key | 604 files | no
 &#x2705; | <a title="GiantStepsTempo" href="https://github.com/GiantSteps/giantsteps-tempo-dataset" target="_blank" rel="noopener">GiantStepsTempo</a> | tempo | 664 files | no
 &#x2705; | <a title="GiantStepsTempo:alternate" href="http://www.tagtraum.com/download/schreiber_new_giantsteps_tempo.zip" target="_blank" rel="noopener">GiantStepsTempo:alternate</a> | tempo | 664 files | no
-&#x2620; | <a title="GMD" href="http://di.ionio.gr/hilab/gmd" target="_blank" rel="noopener">Greek Music Dataset</a> | genre, valence, arousal | 1400 songs | downloadable
+&#x2705; | <a title="GMD" href="http://di.ionio.gr/hilab/gmd" target="_blank" rel="noopener">Greek Music Dataset</a> | genre, valence, arousal | 1400 songs | downloadable
 &#x2620; | <a title="GNMID14" href="https://developer.gracenote.com/mid2014" target="_blank" rel="noopener">Gracenote Music Identification 2014</a> | timestamp, country | 110M music ID matches | no
 &#x2705; | <a title="GoodSounds" href="http://mtg.upf.edu/download/datasets/good-sounds" target="_blank" rel="noopener">GoodSounds</a> | 12 instruments, pitch, sound quality | 8750 notes | yes
 &#x2705; | <a title="GPT" href="http://mac.citi.sinica.edu.tw/GuitarTranscription" target="_blank" rel="noopener">GPT</a> | 7 guitar playing techniques | 6580 clips | yes
-&#x2705; | <a title="GrooveMD" href="https://magenta.tensorflow.org/datasets/groove" target="_blank" rel="noopener">Groove MIDI Dataset</a> | drum timing | 1150 MIDI recordings | rendered
+&#x2705; | <a title="GrooveMD" href="https://magenta.tensorflow.org/datasets/groove" target="_blank" rel="noopener">Groove MIDI Dataset</a> | drummer/session id, drum timing | 1150 MIDI recordings | rendered
 &#x2705; | <a title="GSD" href="https://github.com/ashispati/GuitarSoloDetection/tree/master/Dataset" target="_blank" rel="noopener">Guitar Solo Dataset</a> | start/stop of guitar solos | 60 songs | no
 &#x2705; | <a title="GTZAN" href="http://marsyas.info/downloads/datasets.html" target="_blank" rel="noopener">GTZAN</a> | 10 genres, [tempo labels](http://www.marsyas.info/tempo/), [key labels (lerch)](https://github.com/alexanderlerch/data_set), [key labels (li)](http://visal.cs.cityu.edu.hk/downloads/#gtzankeys), [beat/downbeat](http://anasynth.ircam.fr/home/media/GTZAN-rhythm), [metrical levels](http://www.isophonics.net/content/metrical-structure-annotations-gtzan-dataset) | 1000 excerpts (30s) | yes
 &#x2705; | <a title="GuitarSet" href="https://guitarset.weebly.com/" target="_blank" rel="noopener">GuitarSet</a> | midi, pitch, beat, chords | 360 guitar excerpts (30s) with hexaphonic audio | yes
@@ -116,7 +119,7 @@ status| dataset |  metadata |  contents |  with audio
 &#x2705; | <a title="MER500" href="https://www.kaggle.com/makvel/mer500" target="_blank" rel="noopener">MER500</a> | emotion | 500 clips | yes
 &#x2705; | <a title="MIR-1K" href="https://sites.google.com/site/unvoicedsoundseparation/mir-1k" target="_blank" rel="noopener">MIR-1K</a> | vocal tracks, background tracks | 1000 excerpts | yes
 &#x2705; | <a title="mirex05Train" href="http://labrosa.ee.columbia.edu/projects/melody/" target="_blank" rel="noopener">mirex05Train</a> | predominant pitch | 13 excerpts | yes
-&#x2705; | <a title="mirex06Train" href="http://www.music-ir.org/mirex/wiki/2006:Audio_Tempo_Extraction#Practice_Data" target="_blank" rel="noopener">mirex06Train</a> | tempo, beats | 20 excerpts (30s) | yes
+&#x2620; | <a title="mirex06Train" href="http://www.music-ir.org/mirex/wiki/2006:Audio_Tempo_Extraction#Practice_Data" target="_blank" rel="noopener">mirex06Train</a> | tempo, beats | 20 excerpts (30s) | yes
 &#x2705; | <a title="MLPMF" href="https://osf.io/5aupt" target="_blank" rel="noopener">Mid Level Perceptual Music Features</a> | 7 perceptual features | 5000 audio files | yes
 &#x2705; | <a title="MMTD" href="http://www.cp.jku.at/datasets/MMTD/" target="_blank" rel="noopener">Million Musical Tweets</a> | listening behavior | 1086808 tweets | no
 &#x2705; | <a title="Modal" href="https://github.com/johnglover/modal" target="_blank" rel="noopener">Modal</a> | onset times | 71 snippets | yes
